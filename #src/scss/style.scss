@@ -1,0 +1,19 @@
+body {
+    background-color: aqua;
+    font-size: 24px;
+    display: flex;
+}
+span{
+    font-size: 24px;
+    @media (max-width: 750px) {
+      font-size: 16px;
+    }
+  }
+  
+  div {
+    font-size: 32px;
+    background-image: url('img/inst.png');
+    @media (max-width:750px) {
+      font-size: 12px;
+    }
+  }
